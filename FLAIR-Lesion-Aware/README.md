@@ -106,7 +106,7 @@ FLAIR/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/FLAIR-Lesion-Aware.git
+git clone https://github.com/jaikum0909/FLAIR-Lesion-Aware.git
 cd FLAIR-Lesion-Aware
 ```
 
