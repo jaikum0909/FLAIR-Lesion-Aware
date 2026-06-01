@@ -1,0 +1,47 @@
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+flair_env/
+venv/
+env/
+.env
+
+# Datasets (too large — download separately, see README)
+local_data/datasets/
+
+# Model weights & checkpoints (too large — download separately)
+local_data/results/models/
+local_data/results/transferability/*/model*.pth
+local_data/results/transferability/*/best*.pth
+local_data/results/transferability/*/lora*.pth
+local_data/results/transferability/*/lesion*.pth
+flair_pretrained_weights/
+*.pth
+*.pt
+*.ckpt
+
+# Duplicate original FLAIR repo folder
+flair_repo/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+wandb/
+runs/
